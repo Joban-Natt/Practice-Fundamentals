@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airplane Game</title>
+    <style>
+      .instructions {
+        margin: 5%;
+      }
+
+      #mainStuff {
+        display: flex;
+        align-items: left;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 0;
+        margin: 0;
+      }
+      h1 {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 2em;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">War Planes!</h1>
+    <div id="mainStuff">
+      <div class="instructions">
+        <p><b>Instructions: </b></p>
+        <p>Player 1: Arrow keys to move, Press comma to shoot.</p>
+        <p>Player 2: WASD to move, Press V to shoot.</p>
+      </div>
+      <canvas id="game"></canvas>
+    </div>
+    <script src="index.js" type="module"></script>
+    <p></p>
+    <button id="respawn">Replay!</button>
+  </body>
+</html>
