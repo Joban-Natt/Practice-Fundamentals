@@ -1,0 +1,66 @@
+.rectangle {
+    border: 50%;
+    height: 60px;
+    width: 100%;
+    background-color: #25a4d6;
+    text-align: left;
+    line-height: 1.75;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+  }
+
+#wholeBody {
+    margin-top: 80px;
+}
+
+#submitButton {
+    margin-top: -65px;
+    margin-left: 825px;
+}
+
+.submitButton {
+    border: none;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #25a4d6;
+    color: white;
+    padding: 4px;
+}
+
+.submitButton:hover {
+    background-color: #11516b;
+}
+
+#announcementPosted {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#label12T, #label11T, #label10T, #label9T {
+    font-size: 24px;
+}
+
+#teacherCategories {
+    font-size: 24px;
+    margin-left: -350px;
+    margin-top: 50px;
+}
+
+
+#typeOfClubT {
+    font-size: 24px;
+    margin-left: -200px;
+    margin-top: 12px;
+}
+
+#catTypeDrop {
+    margin-top: -30px;
+    margin-left: 130px;
+}
+
+#clubTypeDrop {
+    margin-top: -42px;
+    margin-left: 300px;
+}

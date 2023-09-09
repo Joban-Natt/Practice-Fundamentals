@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *
+            {
+                margin: 0%;
+                padding: 0%;
+            }
+        </style>
+        <!-- Links the css and javascript file to the html-->
+        <link href="Style2.css" rel="stylesheet" type="text/css">
+        <script src="TeacherCreator.js"></script>
+        <title>Teacher Site</title>
+    </head>
+    <div class="rectangle"><a class="rectangle" href="Student view.html"><span style="padding-left: 16px;">School Announcer</span></a></div>
+    <body onload="getExistingAnnouncement()">
+        <center>
+            <div id="wholeBody">
+                <form>
+                    <!-- All the check boxes and dropdown values + a text box area-->
+                    <div class="filterT">
+                        <input id="htmlGrade9T" type="checkbox" value="gr9">
+                            <label for="htmlGrade9T" id="label9T">Grade 9</label>
+                        <input id="htmlGrade10T" type="checkbox" value="gr10">
+                            <label id="label10T" for="htmlGrade10T">Grade 10</label>
+                        <input id="htmlGrade11T" type="checkbox" value="gr11">
+                            <label id="label11T" for="htmlGrade11T">Grade 11</label>
+                        <input id="htmlGrade12T" type="checkbox" value="gr12">
+                            <label id="label12T" for="htmlGrade12T">Grade 12</label>
+                    </div>
+                    <div id="catTypeDrop">
+                        <select id="teacherCategories">
+                            <option id="htmlnoCategoryT" value="noCategory">None</option>
+                            <option id="htmlClubscategoryT" value="clubs">Clubs</option>
+                            <option id="htmlSportscategoryT" value="sports">Sports</option>
+                            <option id="htmlEventscategoryT" value="events">Events</option>
+                        </select>
+                    </div>
+                    <div id="clubTypeDrop">
+                        <select id="typeOfClubT">
+                            <option id="noClub" value="noClub">None</option>
+                            <option id="clubDeca" value="deca">Deca</option>
+                            <option id="clubHOSA" value="HOSA">Hosa</option>
+                            <option id="clubChess" value="chess">Chess</option>
+                            <option id="clubYearbook" value="yearbook">Yearbook</option>
+                            <option id="clubSocT" value="soccer">Soccer</option>
+                            <option id="clubBasT" value="basketball">Basketball</option>
+                            <option id="clubBadT" value="badminton">Badminton</option>
+                            <option id="promT" value="prom">Prom</option>
+                            <option id="fundraisersT" value="funds">Fundraisers</option>
+                            <option id="guestSpeakersT" value="guests">Guest Speakers</option>
+                        </select>
+                    </div>
+                </form>
+                    <br>
+                    <textarea id="announcementPosted" rows="25" cols="100" required placeholder="Type your announcement here..."></textarea>
+                    <br>
+                <div id="submitButton">
+                        <!-- Runs function when clicked -->
+                    <button class=submitButton onclick="postAnnouncement()">Post</button>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>

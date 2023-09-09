@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="conversion.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Number Convertor</title>
+</head>
+<div id="convertor">
+<center>
+    <body>
+        <div id="convertor">
+            <textarea id="input" placeholder="Input number here" rows="15" cols="30"></textarea>
+            <textarea id="output" placeholder="Output" rows="15" cols="30"></textarea>
+            <br>
+            <button type="submit" id="dToB" onclick="decimalBinaryConvertor()">Decimal to Binary</button>
+            <button type="submit" id="bToD" onclick="binaryDecimalConvertor()">Binary to Decimal</button>
+            <button id="dtoH" onclick="decimalHexaConvertor()">Decimal to Hexa</button>
+            <button id="htoD" onclick="hexaDecimalConvertor()">Hexa to Decimal</button>
+        </div>
+    </body>
+</center>
+<style>
+    #input {
+        text-align: center;
+        font-size: 26px;
+    }
+    #output {
+        text-align: center;
+        font-size: 26px;
+    }
+    #convertor {
+        padding-top: 5%;
+    }
+</style>
+</html>
