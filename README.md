@@ -1,4 +1,3 @@
-# projects
-These are projects that I've created over the last few years.
+#Practice
 
-The Airplane Game must be played on a Live Server due to browsers' CORS policies.
+Fundamentals of programming languages
