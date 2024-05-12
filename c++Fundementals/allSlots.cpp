@@ -2,6 +2,7 @@
 #include <ctime>
 #include <iostream>
 #include <unistd.h>
+#include <vector>
 using namespace std;
 
 void Slots(float &coins) {
